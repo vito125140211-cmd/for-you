@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A romantic love letter for Putri Aulia Shafira">
+    <title>For Putri Aulia Shafira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Page 1: Love Letter -->
+    <div id="page1" class="page active">
+        <div class="hearts-background"></div>
+        <div class="container">
+            <div class="letter-container">
+                <div class="letter-header">
+                    <div class="envelope-seal">
+                        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50,30 Q30,10 10,30 Q30,50 50,70 Q70,50 90,30 Q70,10 50,30" fill="currentColor" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="letter-content">
+                    <p id="typedText"></p>
+                    <div class="cursor"></div>
+                </div>
+                <button id="continueBtn" class="continue-btn" style="display: none;">
+                    Continue ✨
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 2: Quiz -->
+    <div id="page2" class="page">
+        <div class="hearts-background"></div>
+        <div class="container">
+            <div class="quiz-container">
+                <h2 class="quiz-question">I'm a reliable journey partner so,</h2>
+                <h1 class="quiz-main-question">may I be your journey partner?</h1>
+
+                <div class="button-container">
+                    <button id="yesBtn" class="quiz-btn yes-btn">YES 💖</button>
+                    <button id="noBtn" class="quiz-btn no-btn">NO</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page 3: Celebration -->
+    <div id="page3" class="page">
+        <div class="hearts-background"></div>
+        <div class="container">
+            <div class="celebration-container">
+                <h1 class="celebration-title">Yay! 🎉</h1>
+                <p class="celebration-text">Thank youuu! ❤️</p>
+                <div class="gif-container">
+                    <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHE0N3k5aHZ3eDZucjN5cWV4N2o3ZHVqY3k3eWt6M2RnZ3NoandzZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UVk5yzljef0kGiayL1/giphy.gif"
+                        alt="Happy celebration">
+                </div>
+                <p class="final-message">Let's make every moment count together! 💕</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
